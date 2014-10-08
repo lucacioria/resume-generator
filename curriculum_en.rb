@@ -5,13 +5,13 @@ c = Curriculum.new
 
 c.name "Luca", "Cioria"
 
-c.telephone_and_mail "+1 (312) 493-1432", "luca.cioria@gmail.com"
+c.telephone_and_mail "+39 346 8699986", "luca.cioria@gmail.com"
 
 c.body do
 c.section "ABOUT ME" do 
 	c.inline "Nationality"			, "Italian"
 	c.inline "Date of birth"		, "October 28th, 1989"
-	c.inline "Telephone"			, "+1 (312) 493-1432"
+	c.inline "Telephone"			, "+39 346 8699986"
 	c.inline "E-Mail"				, "luca.cioria@gmail.com"
 end
 c.section "EDUCATION" do 
@@ -20,12 +20,11 @@ c.section "EDUCATION" do
 	end
 	c.par "Graduate Education" do
 		c.txt "MSc in Engineering of Computing Systems, <i>Politecnico di Milano</i>"
-		c.txt "Expected graduation October 2013"
-		c.txt "Current average grade: 29.4/30"
+		c.txt "Expected graduation May 2014"
 		c.blank_line
 		c.txt "MSc in Computer Science, University of Illinois at Chicago"
-		c.txt "Expected graduation May 2013"
-		c.txt "Current GPA: 4.0"
+		c.txt "Expected graduation May 2014"
+		c.txt "GPA: 4.0"
 		c.blank_line
 		c.txt "Alta Scuola Politecnica, Excellence School of Politecnico di Milano"
 		c.blank_line
@@ -41,12 +40,12 @@ c.section "AWARDS & OTHER EXPERIENCES" do
 			 "one week course at Instituto Superior Tecnico Lisboa (Portugal)"
 end
 c.section "WORK" do
-	c.inline "[2013-Today] Research Assistant",
-			 " at University of Illinois, Chicago. I’ve been working in the Ethos project, under professor Jon Solworth. The project consists in the development of new concepts for secure OS development. I’m responsible for the UI framework and markup language (currently implemented in Java on the client side)"
-	c.inline "[2012] Website Development",
-			"complete development of www.studiogeimo.it (both php server and html/css website) and other similar websites"
-	c.inline "[2011] Website Development",
-			"development of the admin interfaces and database management of the University Websites, working in PHP and MySql, employed by Politecnico di Milano"
+	c.inline "[2013 Jul-Dec] Sales Engineer Intern, Google Paris",
+			 " 6 months internship in Google France as a Sales Engineer with focus on solution architect and prototype development. Main project designing and implementing an analytics system for the Google+ Enterprise platform."
+	c.inline "[2013 Jan-Jun] Research Assistant",
+			 " at University of Illinois, Chicago. I’ve been working in the Ethos project, under professor Jon Solworth. The project consists in the development of new concepts for secure OS development. I was responsible for the UI framework and markup language (currently implemented in Java on the client side)"
+	c.inline "[2011-2012] Website Development",
+			"development of the admin interfaces and database management of the University Websites, working in PHP and MySql, employed by Politecnico di Milano. Also complete development of www.studiogeimo.it (both php server and html/css website) and other similar websites."
 	c.inline "[2010] Software Development",
 			"autonomous development of a Server-Client software using modern technologies (Ruby on Rails and Flex integration over XML) to manage and control the documentation flow in an Engineering Business"
 end
@@ -83,7 +82,7 @@ end
 c.section "LANGUAGES" do
 	c.inline "Italian", "Mother Tongue"
 	c.inline "English", "Advanced [C2], TOEFL Certificate (118/120), American English courses at University of California, Berkeley"
-	c.inline "French", "Intermediate [B2], DELF Certificate (85)"
+	c.inline "French", "Advanced, DELF Certificate"
 	c.inline "Spanish", "Basic"
 end
 c.section "SOFT SKILLS & OTHER ACTIVITIES" do
@@ -93,7 +92,7 @@ c.section "SOFT SKILLS & OTHER ACTIVITIES" do
 
 	c.inline "Scouting", "I’ve been an FSE Scout (Fédération du Scoutisme Européen) for 15 years and I’m now an educator of the young children. I’ve developed the website scoutvimercate.org for my scout community (complete with admin interfaces, all custom built, mainly PHP)"
 
-	c.inline "Art and Design", "passionate about photography, I won several photographic contests in High School. I play the piano and flute, and love music from classical to modern electronic. I’m very interested in modern design, and have followed various courses on interactive design, physical computing and fabrication techniques. I’m currently developing various interactive design projects with the school of Art and Design (University of Illinois, Chicago)"
+	c.inline "Art and Design", "passionate about photography, I won several photographic contests in High School. I play the piano and flute, and love music from classical to modern electronic. I’m very interested in modern design, and have followed various courses on interactive design, physical computing and fabrication techniques. I’ve developed various interactive design projects with the school of Art and Design (University of Illinois, Chicago)"
 end
 end
 
